@@ -5,8 +5,8 @@ var HOUSES = [
   {name: "Bremer", constructed: 1908, style: "Bungalow", builder: "Theodore and Mary Bremer"},
   {name: "Nicoles", constructed: 1889, style: "Arts and Crafts Foursquare", builder: "Frank and Mattie Farnsley Nicoles"},
   {name: "Low", constructed: 1888, style: "Italianate", builder: "Simpson and Florence Faris Low"},
-  {name: "Horner", constructed: 1908, style: "Pyramidal", builder: "Claude and Blanche Horner"},
-  {name: "Logan", constructed: 1908, style: "Queen Anne Cottage", builder: "Arthur C. and Lillian Prevo"}
+  {name: "Horner", constructed: 1908, style: "Pyramidal", builder: "Claude and Blanche Rowlands Horner"},
+  {name: "Logan", constructed: 1908, style: "Queen Anne Cottage", builder: "Arthur C. and Lillian Reed Prevo"}
 ];
 
 if (typeof module != "undefined" && module.exports)
