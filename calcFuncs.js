@@ -5,8 +5,9 @@ function rowHeights(rows) {  //takes the array "rows" as input
   return rows.map(function(row) {  // maps the array so you get all rows
     return row.reduce(function(max, cell) {  //turns the map into into a single number using reduse
       return Math.max(max, cell.minHeight());  // uses the number as the max height
-    }, 0); // i think its like a bottom line for the reduse so it cant get below 0?
-          // or a option so it cant come out to be 0 and error the code
+    }, 0); // initialValue of 0
+          //Optional. Object to use as the first argument to the first call of the callback.
+          //straight outta compton from mozzila 
   });
 }
 
