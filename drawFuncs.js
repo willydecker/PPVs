@@ -17,20 +17,20 @@ function drawTable(rows) {
 
   // Draw a single row of the table
   function drawRow(row, rowNum) {
-    // blocks is an array of "drawn" cells for a single row
-    // colNum is the key puzzle in this call
-    // print('Busy drawing row number: ' + rowNum);
-    var blocks = row.map(function(cell, colNum) {
-    // print('Rendering colNum: ' + colNum);
+      // blocks is an array of "drawn" cells for a single row
+      // colNum is the key puzzle in this call
+      // print('Busy drawing row number: ' + rowNum);
+      var blocks = row.map(function(cell, colNum) {
+      // print('Rendering colNum: ' + colNum);
       // Ask the cells in a given row to draw themselves
       return cell.draw(widths[colNum], heights[rowNum]);
     });
     // 
     return blocks[0].map(function(_, lineNo) {
-    // print('Just returned: ' + blocks[0] + ' of line: ' + lineNo + ' as ' + blocks);
+       // print('Just returned: ' + blocks[0] + ' of line: ' + lineNo + ' as ' + blocks);
 
-    // print('Rendering a line: ' + drawLine(blocks, lineNo));
-      return drawLine(blocks, lineNo);
+       // print('Rendering a line: ' + drawLine(blocks, lineNo));
+       return drawLine(blocks, lineNo);
     }).join("\n");
   }
 
