@@ -25,8 +25,6 @@ function dataTable(data) {
       var value = row[name];
       // This was changed:
       // Here is where new date type test will go
-//if(typeof value == "string")
-//print('Matching: ' + value + ' with ' + value.match(dateReg));
       if ((typeof value == "number"))
         return new RTextCell(String(value));
       else
