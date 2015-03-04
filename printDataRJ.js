@@ -9,12 +9,10 @@ load('RTextCell.js');
 // load('houses.js');
 load('larder.js');
 
-// As suggested by stackoverflow post
-// Original regex for safekeeping
-// var dateReg = /^\d{2}[.-/]\d{2}[.-/]\d{4}$/
-
-// Set whether or not to right-justify dates
+// This code does date recognition so they can be right-justified
+//   You can turn it on and off
 var rightJustifyDates = false;
+// This regular expression contains logic-by-pattern to identify a date
 var dateReg = (rightJustifyDates?/^(\d{2}|\d)[.-/](\d|\d{2})[.-/]\d{2}$/:null);
 
 function dataTable(data) {
