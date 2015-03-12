@@ -1,14 +1,14 @@
 //this is the pay per view of the houses repo
 var PPVS = [
-	{name: "Backlash", debut: April 25 1999, # of Matches: 9},
-	{name: "Summerslam", debut: August 29 1988, # of Matches: 10},
-	{name: "Wrestlemania", debut: March 31 1985, # of Matches: 9},
-	{name: "Hell in a Cell", debut: October 4 2009, # of Matches: 8},
-	{name: "Survivor Series", debut: November 26 1987, # of Matches: 8},
-	{name: "Royal Rumble", debut: January 15 1989, # of Matches: 7},
-	{name: "Armageddon", debut: December 12 1999, # of Matches: 10},
-	{name: "Extreme Rules", debut: June 7 2009, # of Matches: 11},
-	{name: "Money in the Bank", debut: July 18 2010, # of Matches: 9}
+	{name: "Backlash", debut: "04/25/99", # of Matches: 9},
+	{name: "Summerslam", debut: "08/29/88", # of Matches: 10},
+	{name: "Wrestlemania", debut: "03/31/85", # of Matches: 9},
+	{name: "Hell in a Cell", debut: "10/4/09", # of Matches: 8},
+	{name: "Survivor Series", debut: "11/26/87", # of Matches: 8},
+	{name: "Royal Rumble", debut: "01/15/89", # of Matches: 7},
+	{name: "Armageddon", debut: "12/12/99", # of Matches: 10},
+	{name: "Extreme Rules", debut: "06/7/09", # of Matches: 11},
+	{name: "Money in the Bank", debut: "07/18/10", # of Matches: 9}
 	];
 
 if (typeof module != "undefined" && module.exports)
