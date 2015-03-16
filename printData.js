@@ -2,7 +2,7 @@ load('calcFuncs.js');
 load('drawFuncs.js');
 load('TextCell.js');
 load('UnderlinedCell.js');
-load('houses.js');
+load('larder.js');
 function dataTable(data) {
   var keys = Object.keys(data[0]);
   var headers = keys.map(function(name) {
@@ -16,4 +16,4 @@ function dataTable(data) {
   return [headers].concat(body);
 }
 
-print(drawTable(dataTable(HOUSES)));
+print(drawTable(dataTable(LARDER_FILE)));
